@@ -82,6 +82,7 @@ tag_release-dryrun:
 
 tag_release:
   extends: .semantic-release
+  stage: 🚀 deploy
   only:
     refs:
       - master@kutara/tooling
