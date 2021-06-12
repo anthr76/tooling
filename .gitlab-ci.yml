@@ -18,8 +18,9 @@ variables:
     - *setup
 
 .skopeo:
-  image: quay.io/skopeo/stable:v1.2.0
-  entrypoint: ["/bin/bash"]
+  image: 
+    name: quay.io/skopeo/stable:v1.2.0
+    entrypoint: ["/bin/bash"]
   before_script:
     - *setup
 
