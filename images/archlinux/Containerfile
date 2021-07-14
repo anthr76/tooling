@@ -1,4 +1,4 @@
-FROM docker.io/library/archlinux@sha256:899f1feb8b9108cdc8e2643cc7df15ca25fa1eec5bc6be03bfd6aa4c80fd2017
+FROM docker.io/library/archlinux@sha256:f89922ba60f7f19fc82ed1b23f6d701a9c8fccf38e077623f7f5009d23870fe5
 
 ENV NAME=archlinux-toolbox VERSION=base
 LABEL com.github.containers.toolbox="true" \
